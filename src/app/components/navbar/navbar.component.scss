@@ -1,0 +1,15 @@
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid #fff;
+  img {
+    width: 120px;
+  }
+  .nav-link {
+    color: #fff;
+    font-size: 20px;
+  }
+}

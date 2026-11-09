@@ -1,0 +1,36 @@
+section.contact {
+  background-color: #73281a;
+  .content {
+    width: 500px;
+    margin: auto;
+    label {
+      color: #fff;
+      text-align: left !important;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      border: none;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    textarea {
+      resize: none;
+      height: 160px;
+    }
+    a {
+      border: 1px solid #fff;
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: transparent;
+      text-decoration: none;
+      color: #fff;
+      display: block;
+      text-align: center;
+      font-weight: 500;
+    }
+  }
+}
